@@ -8,3 +8,11 @@ for (let i = 0; i < newClassList.length; i++) {
     newClassList[i].classList.add("important");
 }
 console.log("newClassList after for loop", newClassList);
+const removeDashed = document.querySelector(".dashed");
+console.log("removeDashed", removeDashed);
+removeDashed.classList.remove("dashed");
+console.log("removeDashed after remove", removeDashed);
+const newFooterClass = document.querySelector(".article__footer");
+console.log("new footer class", newFooterClass);
+newFooterClass.classList.add("goldenrod");
+console.log("footer class after add", newFooterClass);
